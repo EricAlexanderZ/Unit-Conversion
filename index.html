@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Unit Conversion</title>
+</head>
+<body class="flex_column">
+    <form id="form_el" class="flex_column">
+        <div id="input_container" class="flex_row">
+            <input id="user_input" class="input_num" type="number" placeholder=" Enter a number">
+        </div> <!-- END OF INPUT DIV --------------->
+        <div id="main" class="flex_column"> 
+            <h2 id="form_title" class="main_heading">Metric&sol;Imperial unit conversion</h2>
+            <p id="num">0</p>
+        </div> <!-- END OF MAIN DIV --------------->
+        <div id="results" class="flex_column">
+            <h3 id="length" class="results_headings">Length (Meter/Feet)</h3>
+            <p id="length_result" class="results_para">meters = 0 feet | feet = 0 meters</p>
+            
+            <h3 id="volume" class="results_headings">Volume (Liters/Gallons)</h3>
+            <p id="volume_result" class="results_para">liters = 0 gallons | gallons = 0 liters</p>
+            
+            <h3 id="mass" class="results_headings">Mass (Kilograms/Pounds)</h3>
+            <p id="mass_result" class="results_para">kilos = 0 pounds | pounds = 0 kilos</p>
+        </div> <!-- END OF RESULTS DIV --------------->
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
